@@ -66,5 +66,18 @@
 - According to figure 3.4, the p-value is 0.637, which is greater than the significance level of 0.05, therefore we fail to reject the null hypothesis.
 
 
+## Study Design: MechaCar vs Competition
+- A statistical test examining the city fuel efficiency ratings of MechaCar vehicles, as compared to the competition's vehicles. 
+  - This test would have to compare vehicles from both manufacturers that are in the same class, for example, a minivan's fuel efficiency should not be compared to a compact sedan. 
 
-
+- Hypotheses:
+  - Null Hypothesis: The mean fuel efficiency of MechaCar vehicles is not statistically greater than the mean fuel efficiecny of the competition's vehicles. 
+  - Alternate Hypothesis: The mean fuel efficincy of MechaCar vehicles is statistically greater than the mean fuel efficiency of the competition's vehicles.
+  
+- A one tailed, two sample t-test would be most effective for this experimental design. 
+  - This test is one tailed since we are concerned with showing that MechaCar vehicles have a greater fuel efficient than the competition. A two tailed test would only show whether or not there was a statistical difference between the mean fuel efficincies in either group, which is not sufficient for our purposes. However it is limited in that we will not know if the opposite relation exists, that is, the competition's vehicles have a statistically greater fuel efficiency than MechaCar vehicles. 
+  - This test is two sampled because we are not comparing mean fuel efficiency with a population wide mean, which would require measuring every vehicle in the relevant class, rather it is a test between two sample datasets of fuel efficiency ratings. 
+  
+- Data:
+  - The Data required to run this test would include a randomly selected sample of fuel efficiency ratings in miles per gallon, recorded while driving on an average city road, for vehicles manufactured by MechaCar and the competition within the same vehicle class. 
+  - We must ensure this data is randomly selected from a popualtion of unmodified vehicles, that there are enough samples for the datasets to be normally distributed, and that the variance in fuel efficiency should be minimal — that is, there should not be any extreme outliers, which could indicate a faulty vehicle or abnormal operation. 

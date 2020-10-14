@@ -5,7 +5,7 @@
 - The multiple linear regression model attempts to predict fuel efficincy of prototype vehicles based on five other factors, vehicle length, vehicle weight, spoiler angle, vehicle ground clearance and its AWD status. 
 
 ![Deliverable1](https://github.com/asadca4u/MechaCar_Statistical_Analysis/blob/main/images/Deliverable%201%20Results.png)
-###### Figure 1: Results from multiple linear regression predicting mpg based on five factors
+###### Figure 1.1: Results from multiple linear regression predicting mpg based on five factors
 
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - According to figure 1, Vehicle Length and Vehicle Ground Clearance are two factors which are statistically unlikely to provide random amounts of variance to the linear model.
@@ -17,6 +17,15 @@
 #### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 - This model is a good start at predicting the mpg values of the prototypes as it was able to find atleast two factors that are likely to have a significant effect on mpg values in Vehicle Length and Vehicle Ground Clearance. 
 - However, given that the intercept is also unlikely to provide a random amount of variance to the mpg values, there must be other factors about vechile fuel efficiency that can be measures in order to improve the fit of the linear regression model.
+
+
+## Summary Statistics on Suspension Coils
+
+###### Figure 2.1: Summary Statistics for suspension coil's PSI across all manufacturing lots
+![Total Summary](https://github.com/asadca4u/MechaCar_Statistical_Analysis/blob/main/images/Deliverable%202%20-%20Total%20Summary.png)
+
+###### Figure 2.2: Summary Statistics for suspension coil's PSI grouped by manufacturing lot
+![Lot Summary](https://github.com/asadca4u/MechaCar_Statistical_Analysis/blob/main/images/Deliverable%202%20-%20Lot%20Summary.png)
 
 
 

@@ -32,5 +32,39 @@
 - However, when grouping the manufacturing lots as in figure 2.2, it becomes obvious that there is an issue with lot 3. This lot alone has a variance of just over 220 PSI across all the suspension coils, which places it well above the 100 PSI cutoff. This indicates that there is an inconsistency in the manufacturing process used in lot 3 which results in suspension coils with very different PSI ratings than the average coil which was produced across all three lots. 
 - Lots 1 and 2 however, are produced very consistently, each with a very low variance of 1.15 and 10.13 PSI respectively. 
 
+## T-Tests on Suspension Coils
+
+###### Figure 3.1: T-test performed across all 3 lots
+![3.1](https://github.com/asadca4u/MechaCar_Statistical_Analysis/blob/main/images/3.1.png)
+
+- Null Hypthesis: There is no statistical difference between the mean PSI of all 3 lots combined and the population mean of 1500 PSI.
+- Alternate Hypothesis: There is a statstical difference between the mean PSI of all 3 lots combined and the population mean of 1500 PSI.
+- According to figure 3.1, the p-value is 0.5117, which is greater than the significance level of 0.05, therefore we fail to reject the null hypothesis.
+
+
+###### Figure 3.2: T-test performed on Lot 1
+![3.2](https://github.com/asadca4u/MechaCar_Statistical_Analysis/blob/main/images/3.2.png)
+
+- Null Hypthesis: There is no statistical difference between the mean PSI of Lot 1 and the population mean of 1500 PSI.
+- Alternate Hypothesis: There is a statstical difference between the mean PSI of Lot 1 and the population mean of 1500 PSI.
+- According to figure 3.2, the p-value is 0.9048, which is greater than the significance level of 0.05, therefore we fail to reject the null hypothesis.
+
+
+###### Figure 3.3: T-test performed on Lot 2
+![3.3](https://github.com/asadca4u/MechaCar_Statistical_Analysis/blob/main/images/3.3.png)
+
+- Null Hypthesis: There is no statistical difference between the mean PSI of Lot 2 and the population mean of 1500 PSI.
+- Alternate Hypothesis: There is a statstical difference between the mean PSI of Lot 2 and the population mean of 1500 PSI.
+- According to figure 3.3, the p-value is 0.3451, which is greater than the significance level of 0.05, therefore we fail to reject the null hypothesis.
+
+
+###### Figure 3.4: T-test performed on Lot 3
+![3.4](https://github.com/asadca4u/MechaCar_Statistical_Analysis/blob/main/images/3.4.png)
+
+- Null Hypthesis: There is no statistical difference between the mean PSI of Lot 3 and the population mean of 1500 PSI.
+- Alternate Hypothesis: There is a statstical difference between the mean PSI of Lot 3 and the population mean of 1500 PSI.
+- According to figure 3.4, the p-value is 0.637, which is greater than the significance level of 0.05, therefore we fail to reject the null hypothesis.
+
+
 
 
